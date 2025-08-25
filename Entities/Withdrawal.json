@@ -1,0 +1,20 @@
+{
+  "name": "Withdrawal",
+  "type": "object",
+  "properties": {
+    "robloxUsername": {
+      "type": "string"
+    },
+    "robloxUserId": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "robloxUsername",
+    "robloxUserId",
+    "amount"
+  ]
+}
